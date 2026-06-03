@@ -1,0 +1,26 @@
+{
+  "SessionStart": [
+    {
+      "matcher": "",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "echo 'Stack: React+TS(strict) · Azure DevOps · Modular Monolith\nRules: no any, no console.log, explicit return types, quality gate before commit'",
+          "timeout": 5
+        }
+      ]
+    }
+  ],
+  "PreToolUse": [
+    {
+      "matcher": "Write|Edit",
+      "hooks": [
+        {
+          "type": "prompt",
+          "prompt": "Verify: no `any`, explicit return types on exports, no console.log, fe-standards naming. Block if violated.",
+          "timeout": 30
+        }
+      ]
+    }
+  ]
+}

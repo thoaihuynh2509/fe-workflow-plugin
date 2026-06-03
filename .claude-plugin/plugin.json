@@ -1,0 +1,15 @@
+{
+  "name": "fe-workflow",
+  "version": "0.7.0",
+  "description": "Frontend workflows: React+TS, Modular Monolith, Azure DevOps. Token-optimised. Includes release-docs.",
+  "author": {
+    "name": "Senior Frontend Engineer"
+  },
+  "keywords": [
+    "frontend",
+    "react",
+    "typescript",
+    "azure-devops",
+    "modular-monolith"
+  ]
+}
